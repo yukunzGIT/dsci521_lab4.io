@@ -1,0 +1,59 @@
+---
+title: "Lab 4 Q10"
+author: "Yukun Zhang"
+date: "October 01, 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: center, middle
+# vector add and subtract
+we can add two vectors using the + operator
+
+```{r}
+c(1, 2, 3) + c(2, 3, 4)
+```
+we can subtract two vectors using the - operator
+```{r}
+c(1, 2, 3) - c(2, 3, 4)
+```
+---
+class: center, middle
+# vector multiplication and division
+we can multiple two vectors using the * operator
+```{r}
+c(1, 2, 3) * c(2, 3, 4)
+```
+
+we can divide two vectors using the / operator
+```{r}
+c(1, 2, 3) / c(2, 3, 4)
+```
+---
+class: center, middle
+# vector add and subtract constant
+we can add a vector and a number using the + operator
+
+```{r}
+c(1, 2, 3) + 5
+```
+we can subtract a vector and a number using the - operator
+```{r}
+c(1, 2, 3) - 5
+```
+---
+class: center, middle
+# vector multiplication and division with constant
+we can multiple one vector with a number using the * operator
+```{r}
+c(1, 2, 3) * 5
+```
+
+we can divide one vector with a number using the / operator
+```{r}
+c(1, 2, 3) / 5
+```
